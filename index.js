@@ -26,3 +26,9 @@ app.use('/auth', authRoutes);
 app.listen(PORT, () => {
     console.log(`Servidor iniciado en http://localhost:${PORT}`);
 });
+{
+    "scripts": {
+      "postinstall": "npm install"
+    }
+  }
+  
